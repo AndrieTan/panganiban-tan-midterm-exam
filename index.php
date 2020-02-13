@@ -38,10 +38,9 @@
 		    
             ?>
             <div class="article">
-                <a href="<?php echo $link;?>"><h2 class="header"><center><?php echo $title;?></h2></a></center>
+                <a href="<?php echo $link;?>"><h2 class="header"><center><?php echo $title;?></h2></a></center><center><h3 style = "font-size: 12px;"><?php echo $date;?></h3></center>
 		    <hr style = "width: 60%">
 				<h3><?php echo $description;?></h3>
-                <h3><?php echo $date;?></h3>
             </div>
             <?php
                 $count++;
