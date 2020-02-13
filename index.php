@@ -33,7 +33,8 @@
             foreach($content as $value){
 				$title = $value->getElementsByTagName("title")->item(0)->nodeValue;
 				$link = $value->getElementsByTagName("link")->item(0)->nodeValue;
-            	$description = $value->getElementsByTagName("description")->item(0)->nodeValue;
+                $description = $value->getElementsByTagName("description")->item(0)->nodeValue;
+                $date = $value->getElementsByTagName("pubDate")->item(0)->nodeValue;
 		    
             ?>
             <div class="article">
@@ -58,7 +59,6 @@
             	$chapter = $value->getElementsByTagName("chapter")->item(0)->nodeValue;
             	$verse = $value->getElementsByTagName("verse")->item(0)->nodeValue;
                 $text = $value->getElementsByTagName("text")->item(0)->nodeValue;
-                $date = $value->getElementsByTagName("pubDate")->item(0)->nodeValue;
             ?>
             <br>
             <b style = "font-size: 40px; font-family: SafiarSignature; color: rgb(255, 184, 53);">Verse of the Day</b>
