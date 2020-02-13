@@ -40,6 +40,7 @@
                 <a href="<?php echo $link;?>"><h2 class="header"><center><?php echo $title;?></h2></a></center>
 		    <hr style = "width: 60%">
 				<h3><?php echo $description;?></h3>
+                <h3><?php echo $date;?></h3>
             </div>
             <?php
                 $count++;
@@ -56,7 +57,8 @@
             	$bookname = $value->getElementsByTagName("bookname")->item(0)->nodeValue;
             	$chapter = $value->getElementsByTagName("chapter")->item(0)->nodeValue;
             	$verse = $value->getElementsByTagName("verse")->item(0)->nodeValue;
-            	$text = $value->getElementsByTagName("text")->item(0)->nodeValue;
+                $text = $value->getElementsByTagName("text")->item(0)->nodeValue;
+                $date = $value->getElementsByTagName("pubDate")->item(0)->nodeValue;
             ?>
             <br>
             <b style = "font-size: 40px; font-family: SafiarSignature; color: rgb(255, 184, 53);">Verse of the Day</b>
