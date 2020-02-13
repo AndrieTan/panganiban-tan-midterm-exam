@@ -59,7 +59,7 @@
             	$text = $value->getElementsByTagName("text")->item(0)->nodeValue;
             ?>
             <br>
-            <b style = "font-size: 40px; font-family: SafiarSignature;">Verse of the Day</b>
+            <b style = "font-size: 40px; font-family: SafiarSignature; color: rgb(255, 184, 53);">Verse of the Day</b>
 		    <hr style = "width: 20%;">
             <b><?php echo $bookname." ".$chapter.":".$verse;?></b><br>
             <?php echo $text;
@@ -68,7 +68,7 @@
             </div>
             <br>
             <div class = "Sermons">
-            <b style = "font-size: 40px; font-family: SafiarSignature;">Sermons</b>
+            <b style = "font-size: 40px; font-family: SafiarSignature; color: rgb(255, 184, 53);">Sermons</b>
 		    <hr style = "width: 20%;">
                     <?php 
                         $count1 = 0;
@@ -88,7 +88,7 @@
             </div>
             <br>
             <div class = "DailyDevotion">
-            <b style = "font-size: 40px; font-family: SafiarSignature;">Daily Devotion</b>
+            <b style = "font-size: 40px; font-family: SafiarSignature; color: rgb(255, 184, 53);">Daily Devotion</b>
 		    <hr style = "width: 20%;">
                     <?php 
                         $count2 = 0;
